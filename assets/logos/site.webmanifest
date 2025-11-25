@@ -1,7 +1,7 @@
 {
-  "name": "KAIST Computer Vision & Machine Learning Lab",
-  "short_name": "KAIST CVML",
-  "description": "Computer Vision & Machine Learning Laboratory at KAIST",
+  "name": "KAIST Visual Intelligence Lab.",
+  "short_name": "KAIST VILab",
+  "description": "Visual Intelligence Lab at KAIST",
   "icons": [
     {
       "src": "favicon-16x16.png",

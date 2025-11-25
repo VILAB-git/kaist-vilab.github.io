@@ -34,7 +34,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
+  height: 80px;
 }
 
 .nav-logo {
@@ -47,14 +47,14 @@ body {
 }
 
 .logo-img {
-  width: 32px;
-  height: 32px;
+  width: 165px;
+  height: 70px;
 }
 
-.logo-text {
+/* .logo-text {
   font-weight: 600;
   color: #333;
-}
+} */
 
 .nav-menu {
   display: flex;

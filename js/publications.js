@@ -11,6 +11,26 @@ document.addEventListener('DOMContentLoaded', async function () {
   // Initialize publications page
   await initializePublications();
 
+
+  const TOP_CV = ['CVPR', 'ECCV', 'ICCV'];
+
+  function getYearGroup(year) {
+    if (year >= 2025) return '2025';
+    if (year === 2024) return '2024';
+    if (year === 2023) return '2023';
+    if (year === 2022) return '2022';
+    return '-2021'; 
+  }
+
+  function getVenueGroup(pub) {
+    if (TOP_CV.includes(pub.venue)) return pub.venue;          
+    if (pub.type === 'journal') return 'Journals';            
+    if (pub.type === 'conference') return 'Other Conferences'; 
+    return 'Other';
+  }
+
+  await initializePublications();
+
   // Load publications from JSON
   async function initializePublications() {
     try {
@@ -33,35 +53,61 @@ document.addEventListener('DOMContentLoaded', async function () {
   }
 
   // Create dynamic filter buttons based on available years
+  // async function createFilterButtons() {
+  //   if (!filterContainer) return;
+
+  //   const years = await window.dataManager.getPublicationYears();
+  //   const categories = await window.dataManager.getPublicationCategories();
+
+  //   filterContainer.innerHTML = `
+  //     <div class="filter-group">
+  //       <label>Filter by Year:</label>
+  //       <button class="filter-btn active" data-filter="year" data-value="all">All Years</button>
+  //       ${years.map(year => `<button class="filter-btn" data-filter="year" data-value="${year}">${year}</button>`).join('')}
+  //     </div>
+  //     <div class="filter-group">
+  //       <label>Filter by Category:</label>
+  //       <button class="filter-btn active" data-filter="category" data-value="all">All Categories</button>
+  //       ${Object.entries(categories).map(([key, label]) =>
+  //     `<button class="filter-btn" data-filter="category" data-value="${key}">${label}</button>`
+  //   ).join('')}
+  //     </div>
+  //     <div class="filter-group">
+  //       <label>Filter by Type:</label>
+  //       <button class="filter-btn active" data-filter="type" data-value="all">All Types</button>
+  //       <button class="filter-btn" data-filter="type" data-value="conference">Conferences</button>
+  //       <button class="filter-btn" data-filter="type" data-value="journal">Journals</button>
+  //       <button class="filter-btn" data-filter="type" data-value="workshop">Workshops</button>
+  //       <button class="filter-btn" data-filter="type" data-value="preprint">Preprints</button>
+  //     </div>
+  //   `;
+  // }
+
   async function createFilterButtons() {
     if (!filterContainer) return;
-
-    const years = await window.dataManager.getPublicationYears();
-    const categories = await window.dataManager.getPublicationCategories();
-
+    
     filterContainer.innerHTML = `
       <div class="filter-group">
         <label>Filter by Year:</label>
         <button class="filter-btn active" data-filter="year" data-value="all">All Years</button>
-        ${years.map(year => `<button class="filter-btn" data-filter="year" data-value="${year}">${year}</button>`).join('')}
+        <button class="filter-btn" data-filter="year" data-value="2025">2025</button>
+        <button class="filter-btn" data-filter="year" data-value="2024">2024</button>
+        <button class="filter-btn" data-filter="year" data-value="2023">2023</button>
+        <button class="filter-btn" data-filter="year" data-value="2022">2022</button>
+        <button class="filter-btn" data-filter="year" data-value="-2021">-2021</button>
       </div>
       <div class="filter-group">
-        <label>Filter by Category:</label>
-        <button class="filter-btn active" data-filter="category" data-value="all">All Categories</button>
-        ${Object.entries(categories).map(([key, label]) =>
-      `<button class="filter-btn" data-filter="category" data-value="${key}">${label}</button>`
-    ).join('')}
-      </div>
-      <div class="filter-group">
-        <label>Filter by Type:</label>
-        <button class="filter-btn active" data-filter="type" data-value="all">All Types</button>
-        <button class="filter-btn" data-filter="type" data-value="conference">Conferences</button>
-        <button class="filter-btn" data-filter="type" data-value="journal">Journals</button>
-        <button class="filter-btn" data-filter="type" data-value="workshop">Workshops</button>
-        <button class="filter-btn" data-filter="type" data-value="preprint">Preprints</button>
+        <label>Filter by Venue:</label>
+        <button class="filter-btn active" data-filter="venue" data-value="all">All Venues</button>
+        <button class="filter-btn" data-filter="venue" data-value="CVPR">CVPR</button>
+        <button class="filter-btn" data-filter="venue" data-value="ECCV">ECCV</button>
+        <button class="filter-btn" data-filter="venue" data-value="ICCV">ICCV</button>
+        <button class="filter-btn" data-filter="venue" data-value="Other Conferences">Other Conferences</button>
+        <button class="filter-btn" data-filter="venue" data-value="Journals">Journals</button>
       </div>
     `;
   }
+
 
   // Display publications grouped by year with preprints first
   function displayPublications(publications) {

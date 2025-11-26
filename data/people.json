@@ -24,12 +24,12 @@
       "website": "https://jihun1998.github.io/"
     },
     {
-      "name": "Byeongin Jeoung",
+      "name": "Byeongin Joung",
       "email": "byeonginjoung@kaist.ac.kr",
       "category": "phd",
       "major": "Mechanical Engineering",
       "role": "2025 Assistant Lab Leader (부랩장)",
-      "image": "ByeonginJeoung.jpg",
+      "image": "ByeonginJoung.jpg",
       "researchInterests": ["TBD"]
     },
     {
@@ -350,6 +350,95 @@
       "graduationDate": "2021-08",
       "website": "https://vlislab22.github.io/vlislab/people.html"
     },
+    {
+      "name": "S. Mohammad Mostafavi I",
+      "email": "mostafavi.isfahani@gmail.com",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "Learning Unit (Lunit)",
+      "graduationDate": "2021-08"
+    },
+    {
+      "name": "Jeong-Kyun Lee",
+      "email": "1jeongky@qti.qualcomm.com",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "Qualcomm",
+      "graduationDate": "2020-02"
+    },
+    {
+      "name": "Chang-Ryeol Lee",
+      "email": "chang@slamcore.com",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "SLAMcore in UK",
+      "graduationDate": "2019-08"
+    },
+    {
+      "name": "Yeong-Jun Cho",
+      "email": "yj.cho@jnu.ac.kr",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "Chonnam University",
+      "graduationDate": "2018-08",
+      "website": "https://sites.google.com/view/cvl-jnu/member/professor?authuser=0"
+    },
+    {
+      "name": "Han-Mu Park",
+      "email": "hanmu@keti.re.kr",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "Korea Electronics Technology Institute (KETI)",
+      "graduationDate": "2018-02"
+    },
+    {
+      "name": "Min-Gyu Park",
+      "email": "mpark@keti.re.kr",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "Korea Electronics Technology Institute (KETI)",
+      "graduationDate": "2017-02"
+    },
+    {
+      "name": "Yong-Ho Shin",
+      "email": "shin.yh@naverlabs.com",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "Qualcomm Korea",
+      "graduationDate": "2017-02"
+    },
+    {
+      "name": "Seung-Hwan Bae",
+      "email": "shbae@inha.ac.kr",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "Inha University",
+      "graduationDate": "2015-08"
+    },
+    {
+      "name": "Min-Koo Kang",
+      "email": "d15514@kist.re.kr",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "Korea Institute of Science and Technology (KIST)",
+      "graduationDate": "2015-08"
+    },
+    {
+      "name": "Jong-Hee Park",
+      "email": "jpark15@keti.re.kr",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "Korea Electronics Technology Institute (KETI)",
+      "graduationDate": "2015-08"
+    },
+    {
+      "name": "Ju-Hong Yoon",
+      "email": "jhyoon@keti.re.kr",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "Korea Electronics Technology Institute (KETI)",
+      "graduationDate": "2014-08"
+    },
 
     {
       "name": "Youngjin Oh",
@@ -358,6 +447,215 @@
       "title": "Masters",
       "nextPosition": "",
       "graduationDate": "2025-02"
+    },
+    {
+      "name": "In-Chul Chung",
+      "email": "",
+      "category": "ms",
+      "title": "Masters",
+      "nextPosition": "",
+      "graduationDate": "2023-08"
+    },
+    {
+      "name": "Jeong-Min Lee",
+      "email": "",
+      "category": "ms",
+      "title": "Masters",
+      "nextPosition": "KETI",
+      "graduationDate": "2023-02"
+    },
+    {
+      "name": "Yoonsu Kang",
+      "email": "",
+      "category": "ms",
+      "title": "Masters",
+      "nextPosition": "",
+      "graduationDate": "2023-02"
+    },
+    {
+      "name": "Kang-Il Lee",
+      "email": "4bkang@snu.ac.kr",
+      "category": "ms",
+      "title": "Masters",
+      "nextPosition": "Machine Intelligence Lab, Seoul National University (Ph.D Candidate)",
+      "graduationDate": "2022-02"
+    },
+    {
+      "name": "Won-June Cho",
+      "email": "",
+      "category": "ms",
+      "title": "Masters",
+      "nextPosition": "NaverLabs",
+      "graduationDate": "2021-02"
+    },
+    {
+      "name": "Kwon-Young Ryu",
+      "email": "",
+      "category": "ms",
+      "title": "Masters",
+      "nextPosition": "Postech (Ph.D Candidate)",
+      "graduationDate": "2021-02"
+    },
+    {
+      "name": "Kyeong-Seob Song",
+      "email": "",
+      "category": "ms",
+      "title": "Masters",
+      "nextPosition": "Hyundai Motors",
+      "graduationDate": "2021-02"
+    },
+    {
+      "name": "Jung-Won Lee",
+      "email": "",
+      "category": "ms",
+      "title": "Masters",
+      "nextPosition": "Hyundai Motors",
+      "graduationDate": "2021-02"
+    },
+    {
+      "name": "Hee-Chan Jung",
+      "email": "",
+      "category": "ms",
+      "title": "Masters",
+      "nextPosition": "Avikus",
+      "graduationDate": "2020-08"
+    },
+    {
+      "name": "Jong-Seob Yoon",
+      "email": "",
+      "category": "ms",
+      "title": "Masters",
+      "nextPosition": "NaverLabs",
+      "graduationDate": "2020-08"
+    },
+    {
+      "name": "Sung-Hyun Park",
+      "email": "",
+      "category": "ms",
+      "title": "Masters",
+      "nextPosition": "Twinny",
+      "graduationDate": "2020-08"
+    },
+    {
+      "name": "Yeon-Kun Lee",
+      "email": "",
+      "category": "ms",
+      "title": "Masters",
+      "nextPosition": "NCSOFT",
+      "graduationDate": "2020-02"
+    },
+    {
+      "name": "Jeong-Yun Na",
+      "email": "jyun.na@mobis.co.kr",
+      "category": "ms",
+      "title": "Masters",
+      "nextPosition": "Hyundai Mobis",
+      "graduationDate": "2018-08"
+    },
+    {
+      "name": "Hyeok-Jae Choi",
+      "email": "hyeokjae94@gist.ac.kr",
+      "category": "ms",
+      "title": "Masters",
+      "nextPosition": "SUALAB",
+      "graduationDate": "2018-02"
+    },
+    {
+      "name": "Jae-Han Park",
+      "email": "qkrwogks@gist.ac.kr",
+      "category": "ms",
+      "title": "Masters",
+      "nextPosition": "Algorigo",
+      "graduationDate": "2018-02"
+    },
+    {
+      "name": "Yong-Hoon Kwon",
+      "email": "",
+      "category": "ms",
+      "title": "Masters",
+      "nextPosition": "Korea Electronics Technology Institute (KETI)",
+      "graduationDate": "2017-08"
+    },
+    {
+      "name": "Jae-Won Yae",
+      "email": "",
+      "category": "ms",
+      "title": "Masters",
+      "nextPosition": "LG Electronics",
+      "graduationDate": "2017-02"
+    },
+    {
+      "name": "Yeong-Won Kim",
+      "email": "Lecon@gist.ac.kr",
+      "category": "ms",
+      "title": "Masters",
+      "nextPosition": "VUNO inc (Alternative military service)",
+      "graduationDate": "2016-08"
+    },
+    {
+      "name": "Se-Hoon Park",
+      "email": "evilrace40@gmail.com",
+      "category": "ms",
+      "title": "Masters",
+      "nextPosition": "LG Electronics",
+      "graduationDate": "2016-02"
+    },
+    {
+      "name": "Dae-Yong Cho",
+      "email": "dycho@gist.ac.kr",
+      "category": "ms",
+      "title": "Masters",
+      "nextPosition": "KIST",
+      "graduationDate": "2016-02"
+    },
+    {
+      "name": "Su-A Kim",
+      "email": "suah90@gmail.com",
+      "category": "ms",
+      "title": "Masters",
+      "nextPosition": "Intel Visual Computing Institute",
+      "graduationDate": "2015-08"
+    },
+    {
+      "name": "Dae-Won Ko",
+      "email": "davidk@postech.ac.kr",
+      "category": "ms",
+      "title": "Masters",
+      "nextPosition": "POSTECH Full-time Researcher",
+      "graduationDate": "2015-02"
+    },
+    {
+      "name": "Hee-Jong Hong",
+      "email": "hjhong@gist.ac.kr",
+      "category": "ms",
+      "title": "Masters",
+      "nextPosition": "Hanhwa Corporation",
+      "graduationDate": "2015-02"
+    },
+    {
+      "name": "Dae-Young Kim",
+      "email": "mafia.log@gmail.com",
+      "category": "ms",
+      "title": "Masters",
+      "nextPosition": "Hyundai Motors",
+      "graduationDate": "2012-02"
+    },
+    {
+      "name": "Seung-Hwan Jung",
+      "email": "shjeong0707@gmail.com",
+      "category": "ms",
+      "title": "Masters",
+      "nextPosition": "Hyundai Motors",
+      "graduationDate": "2012-02"
+    },
+    {
+      "name": "Min-Gil Shin",
+      "email": "dreamyperson@gmail.com",
+      "category": "ms",
+      "title": "Masters",
+      "nextPosition": "LG Electronics",
+      "graduationDate": "2010-08"
     }
+    
   ]
 }

@@ -397,13 +397,15 @@
 
   .public-service-name {
     display: block;          /* 한 줄 전체 차지 */
+    margin-bottom: 4px;
   }
 
   .public-service-period {
     display: block;          /* 아래 줄로 내려오게 */
     white-space: normal;     /* 줄바꿈 허용 */
     margin-left: 0;
-    margin-bottom: 2px;
+    margin-top: 4px;       /* name과의 간격 → 핵심 */
+    margin-bottom: 0px;    /* 아래 요소와 붙지 않도록 최소화 */
     text-align: left;        /* 오른쪽 정렬이 싫으면 왼쪽 정렬 */
   }
 

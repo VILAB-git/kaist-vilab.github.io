@@ -142,17 +142,25 @@
 
 .exp-main,
 .adv-main {
-  font-size: 14px;
+  font-size: 18px;
   color: #333;
 }
 
 .exp-role,
 .adv-role {
+  font-size: 18px;
   font-weight: 600;
+}
+
+.exp-major,
+.adv-major {
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .exp-org,
 .adv-org {
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -203,7 +211,7 @@
 }
 
 .edu-main {
-  font-size: 14px;
+  font-size: 18px;
   color: #333;
 }
 

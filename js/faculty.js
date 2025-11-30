@@ -91,6 +91,7 @@ class FacultyPage {
             <div class="exp-item">
             <div class="exp-main">
                 <span class="exp-role"><strong>${e.role}</strong></span>
+                ${e.major ? `, <span class="exp-major">${e.major}</span>` : ""}
                 ${e.org ? `, <span class="exp-org">${e.org}</span>` : ""}
             </div>
             ${e.period ? `<div class="exp-period">${e.period}</div>` : ""}

@@ -11,7 +11,8 @@
 
   "experience": [
     {
-        "role": "Professor, Department of Mechanical Engineering",
+        "role": "Professor",
+        "major": "Department of Mechanical Engineering",
         "org": "Korea Advanced Institute of Science and Technology (KAIST)",
         "period": "Mar. 2024 - Present",
         "details": [
@@ -26,12 +27,14 @@
         "period": "Aug. 2023 - Jul. 2024"
     },
     {
-        "role": "Associate Professor, Department of Mechanical Engineering",
+        "role": "Associate Professor",
+        "major": "Department of Mechanical Engineering",
         "org": "Korea Advanced Institute of Science and Technology (KAIST)",
         "period": "Feb. 2018 - Feb. 2024"
     },
     {
-        "role": "Associate Professor, School of Electrical Engineering and Computer Science",
+        "role": "Associate Professor",
+        "major": "School of Electrical Engineering and Computer Science",
         "org": "Gwangju Institute of Science and Technology (GIST)",
         "period": "Sep. 2014 - Feb. 2018",
         "details": [
@@ -44,7 +47,8 @@
         "period": "Sep. 2013 - Aug. 2014"
     },
     {
-        "role": "Assistant Professor, School of Electrical Engineering and Computer Science",
+        "role": "Assistant Professor",
+        "major": "School of Electrical Engineering and Computer Science",
         "org": "Gwangju Institute of Science and Technology (GIST)",
         "period": "Aug. 2008 - Aug. 2014"
     },

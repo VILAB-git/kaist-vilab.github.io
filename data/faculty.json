@@ -1,0 +1,280 @@
+{
+  "name": "Kuk-Jin Yoon",
+  "title": "Professor",
+  "affiliation_line": "Visual Intelligence Laboratory, Department of Mechanical Engineering, KAIST",
+  "photo": "../assets/images/people/Professor.jpg",
+  "email": "kjyoon@kaist.ac.kr",
+
+  "intro": "",
+  "google_scholar": "https://scholar.google.com/citations?user=1NvBj_gAAAAJ",
+  "cv": "../assets/docs/251201_Prof_Kuk-Jin_Yoon_CV.pdf",
+
+  "experience": [
+    {
+        "role": "Professor, Department of Mechanical Engineering",
+        "org": "Korea Advanced Institute of Science and Technology (KAIST)",
+        "period": "Mar. 2024 - Present",
+        "details": [
+            { "role": "Deputy Director of KAIST AI Institutes", "period": "Feb. 2025 - Present" },
+            { "role": "Head of KAIST Robotics Program", "period": "Feb. 2023 - Jul. 2023" },
+            { "role": "Affiliated with: Kim Jaechul Graduate School of AI, KAIST Institute for Robotics, Division of Future Vehicle" }
+        ]
+    },
+    {
+        "role": "Visiting Scholar",
+        "org": "Samsung Research America, Mountain View, CA, USA",
+        "period": "Aug. 2023 - Jul. 2024"
+    },
+    {
+        "role": "Associate Professor, Department of Mechanical Engineering",
+        "org": "Korea Advanced Institute of Science and Technology (KAIST)",
+        "period": "Feb. 2018 - Feb. 2024"
+    },
+    {
+        "role": "Associate Professor, School of Electrical Engineering and Computer Science",
+        "org": "Gwangju Institute of Science and Technology (GIST)",
+        "period": "Sep. 2014 - Feb. 2018",
+        "details": [
+            { "role": "Secretary of GIST Faculty Assembly", "period": "2016 - 2017" }
+        ]
+    },
+    {
+        "role": "Visiting Scholar",
+        "org": "Korea Institute of Science and Technology (KIST)",
+        "period": "Sep. 2013 - Aug. 2014"
+    },
+    {
+        "role": "Assistant Professor, School of Electrical Engineering and Computer Science",
+        "org": "Gwangju Institute of Science and Technology (GIST)",
+        "period": "Aug. 2008 - Aug. 2014"
+    },
+    {
+        "role": "Post-doctoral Fellow (Perception Team)",
+        "org": "INRIA Rhône-Alpes, France",
+        "period": "Aug. 2006 - Aug. 2008"
+    },
+    {
+        "role": "Post-doctoral Researcher",
+        "org": "KAIST, Robotics and Computer Vision Lab",
+        "period": "Mar. 2006 - May. 2006"
+    }
+  ],
+  "advisory": [
+    {
+        "role": "External Advisory Committee",
+        "org": "Samsung Electronics",
+        "period": "Mar. 2022 - Mar. 2023"
+    },
+    {
+        "role": "Technical Adviser",
+        "org": "42dot",
+        "period": "Feb. 2022 - Aug. 2022"
+    },
+    {
+        "role": "Technical Adviser",
+        "org": "Avikus",
+        "period": "Feb. 2021 - Aug. 2021"
+    },
+    {
+        "role": "Technical Adviser, Visual Display Division",
+        "org": "Samsung Electronics",
+        "period": "Apr. 2017 - Dec. 2017"
+    },
+    {
+        "role": "Technical Adviser, Mobility Team",
+        "org": "NAVER Labs",
+        "period": "Mar. 2017 - Aug. 2017"
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "Ph.D. in Electrical Engineering and Computer Science",
+      "school": "KAIST, Korea",
+      "year": "Feb. 2006",
+      "thesis": "Robust Correspondence Search under Photometric Variations and Image Ambiguity"
+    },
+    {
+      "degree": "M.S. in Electrical Engineering and Computer Science",
+      "school": "KAIST, Korea",
+      "year": "Feb. 2000",
+      "thesis": "Moving Object Segmentation with an Accurate Boundary Using Color and Motion in Color Image Sequence"
+    },
+    {
+      "degree": "B.S. in Electrical Engineering and Computer Science",
+      "school": "KAIST, Korea",
+      "year": "Feb. 1998"
+    }
+  ],
+
+  "awards": [
+    { "name": "<strong>IEEE/CVF WACV Test of Time Award</strong>", "year": "2025" },
+
+    { "name": "<strong>Bronze Prize (as an Advisor)</strong>: Samsung HumanTech Paper Award", "year": "2023" },
+
+    { "name": "<strong>Best Paper Award (Gold Prize)</strong>: 35th Workshop on Image Processing and Image Understanding", "year": "2023" },
+
+    { "name": "<strong>Best Paper Awards (Grand and Gold Prizes)</strong>: 34th Workshop on Image Processing and Image Understanding", "year": "2022" },
+
+    { "name": "<strong>Technology Innovation Award, College of Engineering, KAIST</strong>", "year": "2022" },
+
+    { "name": "<strong>Selection of KAIST's Top 10 Research Achievements</strong>", "year": "2022" },
+
+    { "name": "<strong>KI (KAIST Institute) Convergence Researcher Award</strong>", "year": "2021" },
+
+    { "name": "<strong>The 1st and 3rd Place</strong> at the Event-based Stereo Challenge in CVPRW 2021", "year": "2021" },
+
+    { "name": "<strong>Commendation from the Korea Minister of Science and ICT</strong> in Recognition of Contributions in AI (인공지능산업발전유공 과학기술정보통신부장관 표창)", "year": "Dec.2020" },
+
+    { "name": "<strong>Sang-Uk Lee Prize (test-of-time award)</strong> at Korean Conference on Computer Vision by Korean Computer Vision Society", "year": "2020" },
+
+    { "name": "<strong>Best Paper Award</strong>: Korea Software Congress 2019 by The Korean Institute of Information Scientists and Engineers", "year": "2019" },
+
+    { "name": "<strong>Best Paper Awards (Grand and Bronze Prizes)</strong>: 31th Workshop on Image Processing and Image Understanding", "year": "2019" },
+
+    { "name": "<strong>Best Student Paper Award (as an Advisor)</strong>: IW-FCV 2018", "year": "2018" },
+
+    { "name": "<strong>Best Paper Award (Silver Prize) and Best Poster Paper Award</strong>: 30th Workshop on Image Processing and Image Understanding", "year": "2018" },
+
+    { "name": "<strong>Silver Prize (as an Advisor)</strong>: Samsung HumanTech Paper Award", "year": "2017" },
+
+    { "name": "<strong>Best Poster Presentation Award (as an Advisor)</strong>: IW-FCV 2017", "year": "2017" },
+
+    { "name": "<strong>Outstanding Reviewer</strong>, ECCV 2016", "year": "2016" },
+
+    { "name": "<strong>Best Paper Award</strong>: 28th Workshop on Image Processing and Image Understanding", "year": "2016" },
+
+    { "name": "<strong>Bronze Prize (as an Advisor)</strong>: Samsung HumanTech Paper Award", "year": "2016" },
+
+    { "name": "<strong>Silver Prize (as an Advisor)</strong>: Samsung HumanTech Paper Award", "year": "2015" },
+
+    { "name": "<strong>Participation Prize (as an Advisor)</strong>: Samsung HumanTech Paper Award", "year": "2015" },
+
+    { "name": "<strong>The 1st Place</strong> at the 1st Multi-object Tracking Challenge (MOT Competition sponsored by Daimler)", "year": "2015" },
+
+    { "name": "<strong>Best Paper Award</strong>: 9th Korea Robotics Society Annual Conference", "year": "2014" },
+
+    { "name": "<strong>Best Paper Award</strong>: 26th Signal Processing Conference by The Institute of Electronics and Information Engineers", "year": "2014" },
+
+    { "name": "<strong>Best Paper Award</strong>: 26th Workshop on Image Processing and Image Understanding", "year": "2014" },
+
+    { "name": "<strong>Silver Prize (as an Advisor)</strong>: Samsung HumanTech Paper Award", "year": "2014" },
+
+    { "name": "<strong>Bronze Prize (as an Advisor)</strong>: Samsung HumanTech Paper Award", "year": "2014" },
+
+    { "name": "<strong>Silver Prize (as an Advisor)</strong>: Samsung HumanTech Paper Award", "year": "2012" },
+
+    { "name": "<strong>Grants to Post-Doctoral Fellows</strong> by INRIA", "year": "2006" },
+
+    { "name": "<strong>Government Grant to Post-Doctoral Fellows</strong> by Korea Research Foundation", "year": "2006" },
+
+    { "name": "<strong>Silver Prize</strong>: Samsung HumanTech Paper Award", "year": "2006" },
+
+    { "name": "<strong>Top 10% among the Accepted Papers</strong>: ICIP", "year": "2005" },
+
+    { "name": "<strong>Bronze Prize</strong>: Samsung HumanTech Paper Award", "year": "2005" },
+
+    { "name": "<strong>Research Prize</strong>: The Fifth Korean Intelligent Robot Contest", "year": "2003" },
+
+    { "name": "<strong>The 3rd Place</strong>: Best Poster Award in Photonics Boston", "year": "2001" }
+    ],
+
+  "service_professional_public": [
+    { "name": "<strong>Member</strong>, Special Committee for a Talent-Power Nation, Presidential Council on National Education Commission", "period": "Nov. 2025 - May 2026"},
+
+    { "name": "<strong>Member</strong>, Presidential Council on National Artificial Intelligence Strategy", "period": "Sep. 2025 - Sep. 2027"},
+
+    { "name": "<strong>Member</strong>, Committee on Autonomous Vehicle Accident Investigation, KATRI/KOTSA", "period": "Jul. 2025 - Jul. 2027"},
+
+    { "name": "<strong>Advisory Committee Member</strong>, 2nd Operations Command, Republic of Korea Army", "period": "Mar. 2021 - Present"},
+
+    { "name": "<strong>Steering Committee Member</strong>, National Strategic Projects on VR/AR", "period": "Mar. 2017 - Dec. 2018"},
+
+    { "name": "<strong>Steering Committee Member</strong>, Korea Culture Technology Institute", "period": "Dec. 2015 - Feb. 2018"}
+  ],
+
+  "service_academic": {
+    "International": [
+        {
+            "role": "Associate Editor",
+            "org": [
+                {"name": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)", "period": "since Apr. 2023"},
+                {"name": "Computer Vision and Image Understanding (CVIU)", "period": "since Mar. 2023"},
+                {"name": "International Journal of Automotive Technology", "period": "since 2017"}
+            ]
+        },
+        {
+            "role": "Area Chair / Senior Area Chair",
+            "org": [
+                "ICML 2026",
+                "CVPR 2026",
+                "AAAI 2026",
+                "WACV 2026",
+                "NeurIPS 2025",
+                "ICCV 2025 (Lead AC)",
+                "ICML 2025",
+                "NeurIPS 2024",
+                "ECCV 2024",
+                "WACV 2024",
+                "ICCV 2023",
+                "CVPR 2022",
+                "WACV 2022",
+                "ICCV 2021",
+                "CVPR 2020",
+                "ICCV 2019",
+                "ACM MM 2019",
+                "etc."
+            ]
+        },
+        {
+            "role": "Organizing Committee Member",
+            "org": [
+                { "name": "IEEE Intelligent Vehicles Symposium (IV)", "period": "2024"},
+                { "name": "Intervational Conference on Computer Vision (ICCV)", "period": "2019"}
+            ]
+        },
+        {
+            "role": "Program Co-chair",
+            "org": [
+                {"name": "ICCV Workshop and Challenge on Comprehensive Video Understanding in the Wild (CoView)", "period": "2019"}
+            ]
+        },
+        {
+            "role": "General Co-chair",
+            "org": [
+                {"name": "International Symposium on Future Mobility (ISFM)", "period": "2019"}
+            ]
+        }
+    ],
+    "Domestic": [
+        {
+            "role": "Organizer / Chair",
+            "org": [
+                {"name": "Hyundai Motors Group (HMG) Autonomous Driving Challenge 2025 (Organizer)", "period": "2025"},
+                {"name": "Korean Conference on Computer Vision (KCCV 2022) (Program Chair)", "period": "2022"}
+            ]
+        },
+        {
+            "role": "Board Member / Officer",
+            "org": [
+                {"name": "Korean Computer Vision Society (KCVS)", "period":"since 2016"},
+                {"name": "The Korea Robotics Society", "period":"2016"}
+            ]
+        },
+        {
+            "role": "Program Committee",
+            "org": [
+                { "name": "Korean Conference on Computer Vision (KCCV)", "period": "since 2014" },
+                { "name": "Workshop on Image Processing and Image Understanding (IPIU)", "period": "2010 - 2018" }
+            ]
+        },
+        {
+            "role": "Editor",
+            "org": [
+                {"name": "Journal of Korea Robotics Society", "period": "2011 - 2014"},
+                {"name": "Journal of Korea Information Processing Society", "period": "2009 - 2014"}
+            ]
+        }
+    ]
+  }
+}

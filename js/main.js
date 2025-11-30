@@ -128,9 +128,10 @@ function createNewsItem(news) {
   const summary = news.summary || news.content || '';
 
   // 상세 페이지 링크
-  const detailUrl = `pages/news-detail.html?id=${encodeURIComponent(
-    news.slug || news.id
-  )}`;
+  const isInSubdirectory = window.location.pathname.includes('/pages/');
+  const detailUrl = isInSubdirectory
+    ? `../news-detail/?id=${encodeURIComponent(news.slug || news.id)}`
+    : `pages/news-detail/?id=${encodeURIComponent(news.slug || news.id)}`;
 
   newsItem.style.opacity = '0';
   newsItem.style.transform = 'translateY(20px)';

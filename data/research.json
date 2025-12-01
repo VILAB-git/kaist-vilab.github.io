@@ -1,0 +1,221 @@
+{
+  "categories": [
+    {
+      "id": "end_to_end_autonomous_driving",
+      "title": "End-to-End Autonomous Driving",
+      "description": "End-to-end autonomous driving learns a direct mapping from raw sensor inputs to driving actions using a single neural network or pipeline. By unifying perception, prediction, and planning into one model, it reduces system complexity and enables consistent, real-time decision-making. This approach forms a promising path toward scalable and robust driving intelligence.",
+      "media": "images/research/end_to_end.mp4",
+      "media_reference": "https://pjlab-adg.github.io/DriveArena/",
+      "topics": []
+    },
+    {
+      "id": "foundation_model_for_vision",
+      "title": "Foundation Model for Vision",
+      "description": "Vision foundation models are large-scale models trained on vast and diverse datasets, capable of adapting to many downstream visual tasks with minimal supervision. They support prompt-based interactions and generalize well across domains, reducing the need for task-specific training. These models provide a powerful backbone for modern vision systems across research and industry.",
+      "media": "images/research/sam2.mp4",
+      "media_reference": "https://ai.meta.com/sam2/", 
+      "topics": []
+    },
+    {
+      "id": "generative_models_for_vision",
+      "title": "Generative Models for Vision",
+      "description": "Generative models learn to synthesize realistic images, videos, or scenes by modeling underlying data distributions. They support applications in image generation, restoration, translation, simulation, and data augmentation. Recent diffusion-based methods have significantly improved fidelity, controllability, and robustness in visual generation.",
+      "media": "images/research/video_diffusion.mp4",
+      "topics": []
+    },
+    {
+      "id": "novel_sensor",
+      "title": "Novel Sensor",
+      "description": "Novel sensors provide unique forms of visual information beyond conventional RGB cameras, enabling perception in challenging conditions. Event cameras, 360° panoramic cameras, and other non-traditional sensors offer high temporal resolution, wide field of view, or high dynamic range. These sensors open new possibilities for robust perception in fast, bright, or complex environments.",
+      "media": "",
+      "topics": [
+        {
+          "id": "event_camera_based_vision",
+          "title": "Event Camera-based Vision",
+          "description": "Event cameras asynchronously capture changes in brightness with microsecond latency, avoiding motion blur and handling extreme lighting. They are ideal for high-speed motion analysis, HDR imaging, and continuous-time perception. This sensor enables new algorithmic paradigms that differ fundamentally from frame-based vision.",
+          "media": "images/research/event_camera.mp4"
+        },
+        {
+          "id": "camera_360_based_vision",
+          "title": "360 Camera-based Vision",
+          "description": "360° cameras capture the entire surrounding environment from a single viewpoint. Their panoramic field of view enhances situational awareness for autonomous driving and robotics. They are widely used for environment reconstruction, scene understanding, and immersive applications.",
+          "media": "images/research/360_vision.gif"
+        }
+      ]
+    },
+    {
+      "id": "multi_modal_learning",
+      "title": "Multi-Modal Learning",
+      "description": "Multi-modal learning integrates complementary information from different sensor modalities to achieve more reliable and complete perception. By combining visual, geometric, semantic, and linguistic inputs, models can interpret complex real-world environments more effectively. This approach improves robustness under noise, occlusion, and environmental variations.",
+      "media": "",
+      "topics": [
+        {
+          "id": "various_sensors",
+          "title": "Various Sensors (LiDAR-Radar, etc.)",
+          "description": "Integrating LiDAR, RADAR, camera, and other sensors leverages each modality's strengths—geometry, motion, robustness, and texture. Sensor fusion enhances 3D perception, particularly in adverse weather or low-visibility scenarios. It enables stable object detection, tracking, and mapping across diverse conditions.",
+          "media": "images/research/4d_radar_detection.mp4"
+        },
+        {
+          "id": "visual_language",
+          "title": "Visual + Language (Vision-Language Models)",
+          "description": "Vision-language models learn joint representations between images and text, providing high-level semantic understanding. These models support tasks such as captioning, visual reasoning, grounding, and multi-modal retrieval. By linking language to visual content, they enable more interpretable and interactive AI systems.",
+          "media": "images/research/vision_language_model.png"
+        }
+      ]
+    },
+    {
+      "id": "three_d_vision",
+      "title": "3D Vision",
+      "description": "3D vision focuses on understanding and reconstructing the 3D structure of objects and scenes. It supports VR/AR, robotics, and autonomous navigation by providing spatial awareness and geometric detail. Recent advances enable high-quality view generation, mapping, and object-level reasoning.",
+      "media": "",
+      "topics": [
+        {
+          "id": "novel_view_synthesis",
+          "title": "Novel View Synthesis (NeRF / 3D Gaussian Splatting)",
+          "description": "Novel view synthesis aims to render unseen viewpoints of a scene using only a limited number of input images. Techniques like NeRF and 3D Gaussian Splatting learn continuous 3D representations for highly realistic rendering. These methods power emerging VR/AR and digital reconstruction applications.",
+          "media": "images/research/novel_view_synthesis.mp4"
+        },
+        {
+            "id": "three_d_scene_understanding",
+            "title": "3D Scene Understanding",
+            "description": "3D scene understanding involves interpreting the spatial layout, object relationships, and semantics of a 3D environment. It enables robots and autonomous systems to navigate, interact, and make decisions based on a comprehensive understanding of their surroundings.",
+            "media": "images/research/3d_scene_understanding.mp4"
+        }
+      ]
+    },
+    {
+      "id": "trajectory_prediction_planning",
+      "title": "Trajectory Prediction / Planning",
+      "description": "Trajectory prediction estimates the future motion of dynamic agents such as vehicles and pedestrians. Planning then uses this information to generate safe and efficient motion strategies for autonomous robots or vehicles. Both steps are crucial for reliable and human-aware autonomous navigation systems.",
+      "media": "images/research/trajectory_prediction.mp4",
+      "topics": []
+    },
+    {
+      "id": "pose_estimation",
+      "title": "Pose Estimation",
+      "description": "Pose estimation involves determining the spatial configuration of humans or objects. It plays a critical role in human–computer interaction, robotics, AR/VR, and understanding dynamic scenes. Pose reasoning supports accurate tracking, forecasting, and manipulation.",
+      "media": "",
+      "topics": [
+        {
+          "id": "human_motion_forecasting",
+          "title": "Human Motion Forecasting",
+          "description": "Human motion forecasting predicts how a person's motion will evolve over future time steps. This enables anticipatory behavior in applications such as social robotics, sports analytics, and motion understanding. It requires modeling complex human dynamics and interactions.",
+          "media": "images/research/human_motion_forecasting.gif"
+        },
+        {
+          "id": "six_d_pose_estimation",
+          "title": "6D Pose Estimation",
+          "description": "6D pose estimation determines an object's orientation and position in 3D space. It is fundamental for robotic grasping, AR registration, and object manipulation. Accurate 6D estimation remains challenging for texture-less or occluded objects.",
+          "media": "images/research/6d_pose_estimation.mp4"
+        }
+      ]
+    },
+    {
+      "id": "three_d_vision_perception",
+      "title": "3D Vision Perception",
+      "description": "3D perception focuses on identifying, classifying, and localizing objects within a 3D environment. It enables machines to understand spatial layouts and navigate safely through complex scenes. LiDAR and multi-modal sensors play a central role in this domain.",
+      "media": "",
+      "topics": [
+        {
+          "id": "three_d_lidar_semantic_segmentation",
+          "title": "3D LiDAR Semantic Segmentation",
+          "description": "3D LiDAR semantic segmentation assigns semantic labels to each point in a LiDAR point cloud. It helps autonomous systems interpret roads, vehicles, pedestrians, and structural elements. Accurate segmentation is essential for high-level planning and navigation.",
+          "media": "images/research/3d_lidar_segmentation.mp4"
+        },
+        {
+          "id": "three_d_object_detection",
+          "title": "3D Object Detection",
+          "description": "3D object detection locates and classifies objects within 3D space. It provides bounding boxes and categories needed for safe decision-making in autonomous driving and robotics. The task requires robustness to occlusion, sparsity, and dynamic environments.",
+          "media": "images/research/3d_object_detection.mp4"
+        }
+      ]
+    },
+    {
+      "id": "two_d_vision_perception",
+      "title": "2D Vision Perception",
+      "description": "2D perception encompasses core tasks that analyze images or videos to understand scenes at the pixel or object level. It forms the foundation for recognition, tracking, segmentation, and visual reasoning. These tasks are widely used across industry, robotics, and AI applications.",
+      "media": "",
+      "topics": [
+        {
+          "id": "object_tracking",
+          "title": "Object Tracking",
+          "description": "Object tracking follows the movement of targets across video frames. It is essential for surveillance, autonomous driving, and behavior analysis. Handling occlusions, fast motion, and appearance changes remains a central challenge.",
+          "media": "images/research/object_tracking.gif"
+        },
+        {
+          "id": "optical_flow",
+          "title": "Optical Flow",
+          "description": "Optical flow estimates pixel-wise motion between consecutive frames. It is widely used for video analysis, motion understanding, and robotic navigation. Large displacements and lighting variations remain key challenges.",
+          "media": "images/research/optical_flow.mp4"
+        },
+        {
+          "id": "wsss",
+          "title": "Weakly Supervised Semantic Segmentation (WSSS)",
+          "description": "WSSS aims to generate pixel-level segmentation using weak labels such as tags, points, or bounding boxes. It greatly reduces annotation cost while enabling large-scale training. Recent developments utilize activation maps, self-training, and prompt-based cues.",
+          "media": "images/research/wsss.png"
+        }
+      ]
+    },
+    {
+      "id": "machine_learning_for_vision",
+      "title": "Machine Learning for Vision",
+      "description": "Machine learning for vision focuses on improving how vision models learn, adapt, generalize, and remain robust. Key challenges include domain shifts, multi-task interference, and adversarial vulnerabilities. Developing adaptive and reliable learning mechanisms is essential for deploying vision models in real-world environments.",
+      "media": "",
+      "topics": [
+        {
+          "id": "multi_task_learning",
+          "title": "Multi-task Learning",
+          "description": "Multi-task learning trains a model to perform multiple related tasks simultaneously. By sharing representations, it improves generalization and efficiency over training separate models. Its key challenge is balancing tasks to avoid interference and negative transfer.",
+          "media": "images/research/multi_task_learning.png"
+        },
+        {
+          "id": "adversarial_attack",
+          "title": "Adversarial Attack",
+          "description": "Adversarial attacks introduce small, often imperceptible perturbations that fool machine learning models. Studying these attacks helps researchers understand vulnerabilities and design robust defenses. This research area is critical for building safe and trustworthy AI systems.",
+          "media": "images/research/adversarial_attack.png",
+          "media_reference": "https://arxiv.org/pdf/1412.6572"
+        },
+        {
+          "id": "test_time_adaptation_training",
+          "title": "Test-time Adaptation / Training",
+          "description": "Test-time adaptation updates a model on the fly to handle unseen environments without requiring labels. It reduces performance degradation caused by distribution shifts in real-world deployment. This makes AI systems more resilient and self-improving.",
+          "media": "images/research/test_time_adaptation.png",
+          "media_reference": "https://github.com/tim-learn/awesome-test-time-adaptation"
+        }
+      ]
+    },
+    {
+      "id": "low_level_vision",
+      "title": "Low-Level Vision",
+      "description": "Low-level vision focuses on restoring, enhancing, or analyzing fundamental visual signals. These tasks improve the quality of visual inputs and support the reliability of downstream perception models. They are especially important in challenging environments with blur, noise, or adverse weather.",
+      "media": "",
+      "topics": [
+        
+        {
+          "id": "adverse_weather_removal",
+          "title": "Adverse Weather Removal",
+          "description": "Adverse weather removal restores image quality degraded by rain, fog, snow, or haze. This enhances visibility and improves the performance of perception systems in harsh environments. It is crucial for safety-critical applications like autonomous driving.",
+          "media": "images/research/adverse_weather_removal.png"
+        },
+        {
+            "id": "frame_interpolation",
+            "title": "Frame Interpolation",
+            "description": "Frame interpolation generates intermediate frames between existing video frames to create smooth motion. It is widely used in video editing, slow-motion effects, and frame rate upconversion. Accurate motion estimation is key to high-quality results.",
+            "media": "images/research/frame_interpolation.mp4"
+        },
+        {
+          "id": "super_resolution",
+          "title": "Super Resolution",
+          "description": "Super-resolution reconstructs high-resolution images from low-resolution inputs. It improves clarity for inspection, medical imaging, satellite imagery, and visual enhancement. Deep learning has significantly advanced SR quality and efficiency.",
+          "media": "images/research/super_resolution.png"
+        },
+        {
+          "id": "motion_deblurring",
+          "title": "Motion Deblurring",
+          "description": "Motion deblurring removes motion blur or camera shake from images to recover sharp details. It benefits photography, surveillance, and downstream computer vision tasks. Real-world blur, which is often spatially varying, remains a challenging problem.",
+          "media": "images/research/motion_deblurring.png"
+        }
+      ]
+    }
+  ]
+}

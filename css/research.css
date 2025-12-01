@@ -1,0 +1,172 @@
+/* ===============================
+   Research Layout (updated style)
+   =============================== */
+
+/* 전체 배경 → 흰색 */
+.research-content {
+  padding: 40px 0 60px;
+  background-color: #ffffff;
+}
+
+.research-list {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;  /* 대주제 간 여백 넉넉하게 */
+}
+
+/* ===== Research Section (대주제) ===== */
+
+/* 박스 제거 → Publications 스타일 */
+.research-section {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+/* 대주제 제목 스타일 */
+.research-section-header {
+  margin-bottom: 18px;
+}
+
+.research-section-title {
+  font-size: 1.45rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #111827;
+  padding-bottom: 6px;
+  position: relative;
+}
+
+/* 노란 구분선: 대주제마다 */
+.research-section-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 80px;
+  height: 3px;
+  background-color: #facc15; /* yellow-400 */
+  border-radius: 999px;
+}
+
+/* 대주제 설명 */
+.research-section-description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #4b5563;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  max-width: 95%;
+}
+
+/* ===== Topic List ===== */
+.research-topics {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* ===== Topic Card (소주제) ===== */
+
+/* Publications의 논문 카드와 톤 맞춘 스타일 */
+.research-topic {
+  display: flex;
+  gap: 16px;
+  padding: 16px 18px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.05);
+}
+
+/* 대주제에 소주제가 없을 때 단일 카드 */
+.research-topic-single {
+  margin-top: 0;
+}
+
+/* ==== 이미지 영역 ==== */
+
+.research-topic-media {
+  flex: 0 0 250px;
+  max-width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.research-topic-image {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.research-topic-video {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.research-topic-media-placeholder {
+  width: 100%;
+  height: 120px;
+  border-radius: 10px;
+  border: 1px dashed #d1d5db;
+  background: #f9fafb;
+  font-size: 0.8rem;
+  color: #9ca3af;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ==== 텍스트 영역 ==== */
+
+.research-topic-content {
+  flex: 1;
+}
+
+.research-topic-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 6px;
+}
+
+.research-topic-description {
+  font-size: 0.93rem;
+  line-height: 1.6;
+  color: #4b5563;
+}
+
+.media-reference-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #1d4ed8;           /* 파란 글자 */
+  background-color: #eff6ff; /* 연한 파란 배경 */
+  border: 1px solid #bfdbfe;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.media-reference-pill:hover {
+  background-color: #dbeafe;
+  border-color: #93c5fd;
+}
+
+/* ===== Responsive ===== */
+
+@media (max-width: 768px) {
+  .research-topic {
+    flex-direction: column;
+  }
+
+  .research-topic-media {
+    max-width: 100%;
+  }
+}

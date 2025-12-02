@@ -172,7 +172,7 @@ Edit `data/faculty.json`:
   ```html
   <strong>This is the example text.</strong> <i>This is the <strong>example</strong> text</i>. This is the example text.<br> This is the example text. This is the example text.<br><br> This is the example text. This is the example text. This is the example text.
   ```
-  will shows as
+  will be shown as
 
     <strong>This is the example text.</strong> <i>This is the <strong>example</strong> text</i>. This is the example text.<br> This is the example text. This is the example text.<br><br> This is the example text. This is the example text. This is the example text.
 

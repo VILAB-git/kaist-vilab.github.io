@@ -49,9 +49,47 @@
 }
 
 
+.lab-intro {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+  background: #ffffff;
+}
 
+.lab-intro-wrapper {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
 
-/* Title section */
+.lab-logo img {
+  width: 330px;      
+  height: auto;
+}
+
+.lab-text {
+  flex: 1;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.lab-text ul {
+  margin: 15px 0 25px;
+  padding-left: 20px;
+}
+
+.lab-text li {
+  margin-bottom: 8px;
+}
+
+.contact-email {
+  color: #FFC109;
+}
+
 .hero-title-section {
   text-align: center;
   margin-bottom: 40px;
@@ -72,7 +110,7 @@
 }
 
 .vision-highlight {
-  color: #E4C047;
+  color: #FFC109;
 }
 
 /* Content layout - logo and intro */

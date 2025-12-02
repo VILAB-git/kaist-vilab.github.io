@@ -157,11 +157,30 @@ add name to `members-alumni` list
 Edit `data/faculty.json`:
 
 ### Modify Introduction
-- change `intro`
+- change `intro` in `data/faculty.json`
+- The `intro` should be **1 line**.
+- You can use the basic HTML to format the text:
+  - `<strong>...</strong>`
+    - Make text **Bold** (useful for names, awards, venues).
+  - `<i>...</i>`
+    - Make text *italic* (useful for paper titles, special phrases).
+  - `<br>`
+    - Line break (new line, similar to pressing "Enter" once).
+  - `<br><br>`
+    - Double line break (extra spacing between paragraphs).
+- For example, 
+  ```html
+  <strong>This is the example text.</strong> <i>This is the <strong>example</strong> text</i>. This is the example text.<br> This is the example text. This is the example text.<br><br> This is the example text. This is the example text. This is the example text.
+  ```
+  will shows as
+
+    <strong>This is the example text.</strong> <i>This is the <strong>example</strong> text</i>. This is the example text.<br> This is the example text. This is the example text.<br><br> This is the example text. This is the example text. This is the example text.
+
+
 
 ### Modify CV
 - change CV file in `assets/docs`
-- change `cv`
+- change `cv` in `data/faculty.json`
 
 ### Add Professional Experience
 - add new information to `experience`

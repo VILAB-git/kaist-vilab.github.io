@@ -93,6 +93,18 @@ class PeoplePage {
       majorText = person.major_phd;
     } else if (person.category === 'ms' && person.major_ms) {
       majorText = person.major_ms;
+    } else if (person.category === 'intern') {
+      // Intern: school + major (줄바꿈)
+      const school = person.school ? person.school : '';
+      const major = person.major ? person.major : '';
+
+      if (school && major) {
+        majorText = `${school}<br>${major}`;
+      } else if (school) {
+        majorText = school;
+      } else if (major) {
+        majorText = major;
+      }
     } else if (person.major) {
       // 백워드 컴패티빌리티용 (예전 데이터가 남아 있을 수도 있으니)
       majorText = person.major;

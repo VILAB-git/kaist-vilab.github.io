@@ -47,6 +47,7 @@
       "Hyemin Yang",
       "Wonyoung Lee",
       "Youngho Kim",
+      "Hajoon Park",
       "Kyung-A Kwon"
     ],
     "alumni": [
@@ -407,6 +408,15 @@
       "category": "ms",
       "major_ms": "Mechanical Engineering",
       "image": "YounghoKim.jpg",
+      "researchInterests": ["TBD"]
+    },
+    {
+      "name": "Hajoon Park",
+      "email": "dareum@kaist.ac.kr",
+      "category": "intern",
+      "school": "KAIST",
+      "major": "Mechanical Engineering",
+      "image": "HajoonPark.jpg",
       "researchInterests": ["TBD"]
     },
     {

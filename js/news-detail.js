@@ -184,11 +184,14 @@ document.addEventListener('DOMContentLoaded', async function () {
 
       if (numMain > 0 && numWorkshop > 0) {
         return `${numMain} ${paperWord(numMain)} and ${numWorkshop} ${workshopWord(numWorkshop)} from VILAB have been accepted to ${baseVenueLabel}.`;
-      } else if (numMain > 0) {
+      } else if (numMain > 1) { // multiple main papers
         return `${numMain} ${paperWord(numMain)} from VILAB have been accepted to ${baseVenueLabel}.`;
-      } else {
-        // 모두 워크샵인 경우
+      } else if (numMain === 1) { // single main paper
+        return `${numMain} ${paperWord(numMain)} from VILAB has been accepted to ${baseVenueLabel}.`;
+      } else if (numWorkshop > 1) { // multiple workshops
         return `${numWorkshop} ${workshopWord(numWorkshop)} from VILAB have been accepted to ${baseVenueLabel}.`;
+      } else { // single workshop
+        return `${numWorkshop} ${workshopWord(numWorkshop)} from VILAB has been accepted to ${baseVenueLabel}.`;
       }
     }
 

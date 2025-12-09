@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
     if (pub.type === 'journal') return 'Journals';            
     if (pub.type === 'conference') return 'Other Conferences'; 
+    if (pub.type === 'patent') return 'Patents';
     return 'Other';
   }
 
@@ -111,6 +112,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         <button class="filter-btn" data-filter="venue" data-value="ECCV">ECCV</button>
         <button class="filter-btn" data-filter="venue" data-value="Other Conferences">Other Conferences</button>
         <button class="filter-btn" data-filter="venue" data-value="Journals">Journals</button>
+        <button class="filter-btn" data-filter="venue" data-value="Patents">Patents</button>
       </div>
     `;
   }
@@ -184,30 +186,90 @@ document.addEventListener('DOMContentLoaded', async function () {
     }, {});
   }
 
-  // Create HTML for a single publication
-  function createPublicationHTML(pub) {
-    const formattedDate = window.dataManager.formatDate(pub.date, 'short');
+  // // Create HTML for a single publication
+  // function createPublicationHTML(pub) {
+  //   const formattedDate = window.dataManager.formatDate(pub.date, 'short');
 
+  //   return `
+  //     <div class="publication-item ${pub.featured ? 'featured' : ''}" data-category="${pub.category}" data-type="${pub.type}">
+  //       <div class="publication-content">
+  //         <h3 class="publication-title">${pub.title}</h3>
+  //         <p class="publication-authors">${pub.authors.join(', ')}</p>
+  //         <p class="publication-venue">
+  //           <strong>${pub.venue} ${pub.year}</strong>
+  //           ${pub.presentation ? ` (${pub.presentation.charAt(0).toUpperCase() + pub.presentation.slice(1)})` : ''}
+  //         </p>
+  //         ${pub.abstract ? `<p class="publication-description">${pub.abstract}</p>` : ''}
+  //         ${pub.keywords ? `<div class="publication-keywords">
+  //           ${pub.keywords.map(keyword => `<span class="keyword">${keyword}</span>`).join('')}
+  //         </div>` : ''}
+  //         <div class="publication-links">
+  //           ${pub.pdf_url && pub.pdf_url !== '#' ? `<a href="${pub.pdf_url}" class="pub-link">Paper</a>` : ''}
+  //           ${pub.supp_url && pub.supp_url !== '#' ? `<a href="${pub.supp_url}" class="pub-link">Supp</a>` : ''}
+  //           ${pub.arxiv_url && pub.arxiv_url !== '#' ? `<a href="${pub.arxiv_url}" class="pub-link">ArXiv</a>` : ''}
+  //           ${pub.code_url && pub.code_url !== '#' ? `<a href="${pub.code_url}" class="pub-link">Code</a>` : ''}
+  //           ${pub.project_url && pub.project_url !== '#' ? `<a href="${pub.project_url}" class="pub-link">Project Page</a>` : ''}
+  //         </div>
+  //       </div>
+  //     </div>
+  //   `;
+  // }
+
+  // Create HTML for a single publication (patent)
+  function createPublicationHTML(pub) {
+    const isPatent = pub.type === 'patent';
+  
+    // venue + year (patent: Only venue or add year)
+    const venueText = `${pub.venue} ${pub.year ? pub.year : ''}`.trim();
+    
     return `
-      <div class="publication-item ${pub.featured ? 'featured' : ''}" data-category="${pub.category}" data-type="${pub.type}">
+      <div class="publication-item ${pub.featured ? 'featured' : ''}" 
+           data-category="${pub.category}" 
+           data-type="${pub.type}">
+        
         <div class="publication-content">
-          <h3 class="publication-title">${pub.title}</h3>
+  
+          <!-- Title -->
+          <h3 class="publication-title">
+            ${pub.title}
+            ${pub.title_kor ? `<br><span class="publication-title-kor">${pub.title_kor}</span>` : ''}
+          </h3>
+  
+          <!-- Authors -->
           <p class="publication-authors">${pub.authors.join(', ')}</p>
+
+          <! -- Authors (Korean) -->
+          ${pub.authors_kor ? `<p class="publication-authors-kor">${pub.authors_kor.join(', ')}</p>` : ''}
+
+          <!-- Patent ID -->
+          ${isPatent && pub.patent_id ? 
+            `<p class="publication-patent-id">Patent ID: <strong>${pub.patent_id}</strong></p>` 
+           : ''}
+  
+          <!-- Venue -->
           <p class="publication-venue">
-            <strong>${pub.venue} ${pub.year}</strong>
-            ${pub.presentation ? ` (${pub.presentation.charAt(0).toUpperCase() + pub.presentation.slice(1)})` : ''}
+            <strong>${venueText}</strong>
           </p>
+  
+          <!-- Abstract -->
           ${pub.abstract ? `<p class="publication-description">${pub.abstract}</p>` : ''}
-          ${pub.keywords ? `<div class="publication-keywords">
-            ${pub.keywords.map(keyword => `<span class="keyword">${keyword}</span>`).join('')}
-          </div>` : ''}
+  
+          <!-- Keywords -->
+          ${pub.keywords ? `
+            <div class="publication-keywords">
+              ${pub.keywords.map(k => `<span class="keyword">${k}</span>`).join('')}
+            </div>` 
+          : ''}
+  
+          <!-- Links -->
           <div class="publication-links">
-            ${pub.pdf_url && pub.pdf_url !== '#' ? `<a href="${pub.pdf_url}" class="pub-link">Paper</a>` : ''}
-            ${pub.supp_url && pub.supp_url !== '#' ? `<a href="${pub.supp_url}" class="pub-link">Supp</a>` : ''}
-            ${pub.arxiv_url && pub.arxiv_url !== '#' ? `<a href="${pub.arxiv_url}" class="pub-link">ArXiv</a>` : ''}
-            ${pub.code_url && pub.code_url !== '#' ? `<a href="${pub.code_url}" class="pub-link">Code</a>` : ''}
-            ${pub.project_url && pub.project_url !== '#' ? `<a href="${pub.project_url}" class="pub-link">Project Page</a>` : ''}
+            ${pub.pdf_url ? `<a href="${pub.pdf_url}" class="pub-link">Paper</a>` : ''}
+            ${pub.supp_url ? `<a href="${pub.supp_url}" class="pub-link">Supp</a>` : ''}
+            ${pub.arxiv_url ? `<a href="${pub.arxiv_url}" class="pub-link">ArXiv</a>` : ''}
+            ${pub.code_url ? `<a href="${pub.code_url}" class="pub-link">Code</a>` : ''}
+            ${pub.project_url ? `<a href="${pub.project_url}" class="pub-link">Project Page</a>` : ''}
           </div>
+  
         </div>
       </div>
     `;
@@ -287,6 +349,8 @@ document.addEventListener('DOMContentLoaded', async function () {
         );
       } else if (v === 'Journals') {
         filteredPublications = filteredPublications.filter(pub => pub.type === 'journal');
+      } else if (v === 'Patents') {
+        filteredPublications = filteredPublications.filter(pub => pub.type === 'patent');
       } else if (v === 'Other Conferences') {
         filteredPublications = filteredPublications.filter(
           pub => 
@@ -294,7 +358,7 @@ document.addEventListener('DOMContentLoaded', async function () {
             !TOP_CV.includes(pub.venue) &&
             !TOP_CV.some(top => pub.venue.includes(top))
         );
-      }
+      } 
     }
 
     // // Apply category filter
@@ -321,6 +385,8 @@ document.addEventListener('DOMContentLoaded', async function () {
           filteredPublications = filteredPublicications.filter(pub => pub.venue === v);
         } else if (v === 'Journals') {
           filteredPublications = filteredPublications.filter(pub => pub.type === 'journal');
+        } else if (v === 'Patents') { 
+          filteredPublications = filteredPublications.filter(pub => pub.type === 'patent');
         } else if (v === 'Other Conferences') {
           filteredPublications = filteredPublications.filter(
             pub => pub.type === 'conference' && !TOP_CV.includes(pub.venue)

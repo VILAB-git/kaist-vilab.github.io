@@ -1991,6 +1991,210 @@
       "type": "journal",
       "status": "published",
       "keywords": ["Structure-from-Motion", "Key-frame Selection"]
-    }
+    },
+    {
+      "title": "Stereo Matching Method and Apparatus",
+      "authors": ["Kee Chang Lee", "Wonhee Lee", "Kuk Jin Yoon", "Yongho Shin", "Yeong Won Kim", "Jin Ho Song"],
+      "venue": "International",
+      "year": 2019,
+      "type": "patent",
+      "status": "Active",
+      "patent_id": "US10853960B2",
+      "keywords": ["Patent", "Stereo Matching"]
+    },
+    {
+      "title": "Object Recognition System using Left and Right Images and Method",
+      "authors": ["Ji Hyo Lee", "Kuk Jin Yoon", "Woo Sup Han"],
+      "venue": "International",
+      "year": 2018,
+      "type": "patent",
+      "status": "Active",
+      "patent_id": "US9984280B2",
+      "keywords": ["Patent", "Object Recognition"]
+    },
+    {
+      "title": "Stereo Matching Method and Device for Performing the Method",
+      "authors": ["Ji Ho Chang", "Jae Chan Jeong", "Ho Chul Shin", "Dae Hwan Hwang", "Seung Min Choi", "Eul Gyoon Lim", "Jae IL Cho", "Kuk Jin Yoon"],
+      "venue": "International",
+      "year": 2018,
+      "type": "patent",
+      "status": "Active",
+      "patent_id": "US9967516B2",
+      "keywords": ["Patent", "Stereo Matching"]
+    },
+    {
+      "title": "Method and Apparatus for Estimating Image Optical Flow",
+      "authors": ["Young-Su Moon", "Kuk Jin Yoon", "Jae-hyun Kim"],
+      "venue": "International",
+      "year": 2017,
+      "type": "patent",
+      "status": "Active",
+      "patent_id": "US9811918B2",
+      "keywords": ["Patent", "Optical Flow"]
+    },
+    {
+      "title": "Polyp Detection Apparatus and Method of Operating the Same",
+      "authors": ["Sung-Hyun Kim", "Kuk-Jin Yoon", "Seung-Hwan Bae", "Yeong-Jun Jo", "Tae-Kyung Kim", "Ji-Woon Jung"],
+      "venue": "International",
+      "year": 2014,
+      "type": "patent",
+      "status": "Active",
+      "patent_id": "US9530205B2",
+      "keywords": ["Patent", "Medical Imaging"]
+    },
+    {
+      "title": "Method for Improving 3-Dimensional Effect and Reducing Visual Fatigue and Apparatus Enabling the Same",
+      "authors": ["Kuk-Jin Yoon", "Makoto Kimura", "Jin-kyung Lee", "Yasuo Takane", "Tae-kyung Kim", "Hyun-seok Choi", "Taek-seong Jeong", "Kyoung-hwan Moon", "Takashima Masahiro"],
+      "venue": "International",
+      "year": 2014,
+      "type": "patent",
+      "status": "Active",
+      "patent_id": "US8760502B2",
+      "keywords": ["Patent", "3D Imaging"]
+    },
+    {
+      "title": "Method and Apparatus of Detecting Object using Deep Learning of Omni Directional Image, Method of Autonomous Driving of Vehicle and Drone using the Method",
+      "title_kor": "전방향 영상의 딥러닝을 이용한 물체 감지 방법 및 장치, 그리고 이를 이용한 차량 자율 주행 및 드론 자율 주행 방법",
+      "authors": ["Kuk-Jin Yoon", "Yeon Kun Lee", "Jae Seok Jeong", "Jong Seob Yun", "Won June Cho"],
+      "authors_kor": ["윤국진", "이연건", "정재석", "윤종섭", "조원준"],
+      "venue": "Domestic",
+      "year": 2022,
+      "type": "patent",
+      "status": "Active",
+      "patent_id": "KR1024425450000",
+      "keywords": ["Patent", "Object Detection"]
+    },
+    {
+      "title": "Variable Photo-illumination Method of Photoactivated Gas Sensor for Gas Identification",
+      "title_kor": "가변광조사를 이용한 광활성 가스센서의 가스종 식별방법",
+      "authors": ["Inkyu Park", "Incheol Cho", "Kuk-Jin Yoon", "Minkyu Cho"],
+      "authors_kor": ["박인규", "조인철", "윤국진", "조민규"],
+      "venue": "Domestic",
+      "year": 2022,
+      "type": "patent",
+      "status": "Active",
+      "patent_id": "KR1024562910000",
+      "keywords": ["Patent", "Gas Sensor"]
+    },
+    {
+      "title": "Method and Apparatus for Estimating Image Optical Flow",
+      "title_kor": "영상 광류를 추정하는 방법 및 이를 위한 장치",
+      "authors": ["Young-su Moon", "Kuk-Jin Yoon", "Jaehyun Kim"],
+      "authors_kor": ["문영수", "윤국진", "김재현"],
+      "venue": "Domestic",
+      "year": 2021,
+      "type": "patent",
+      "status": "Active",
+      "patent_id": "KR1022653150000",
+      "keywords": ["Patent", "Optical Flow"]
+    },
+    {
+      "title": "A Method and Apparatus for Generating Super Resolve Intensity Image",
+      "title_kor": "고해상도 강도 이미지 생성 방법 및 장치",
+      "authors": ["Jonghyun Choi", "S. Mohammad Mostafavi I.", "Kuk-Jin Yoon"],
+      "authors_kor": ["최종현", "Mostafavi I.,S. Mohammad", "윤국진"],
+      "venue": "Domestic",
+      "year": 2022,
+      "type": "patent",
+      "status": "Active",
+      "patent_id": "KR1023661870000",
+      "keywords": ["Patent", "Super Resolution"]
+    },
+    {
+      "title": "Method of Stereo Matching and Apparatus for Performing the Method",
+      "title_kor": "스테레오 매칭 방법 및 이를 수행하는 장치",
+      "authors": ["Ji Ho Chang", "Jae Chan Jeong", "Ho Chul Shin", "Dae Hwan Hwang", "Seung Min Choi", "Eul Gyoon Lim", "Jae Il Cho", "Kuk-Jin Yoon"],
+      "authors_kor": ["장지호", "정재찬", "신호철", "황대환", "최승민", "임을균", "조재일", "윤국진"],
+      "venue": "Domestic",
+      "year": 2017,
+      "type": "patent",
+      "status": "Active",
+      "patent_id": "KR1021789780000",
+      "keywords": ["Patent", "Stereo Matching"]
+    },
+    {
+      "title": "An Apparatus, a Method, and a Computer-readable Storage Medium for Refining Object Proposal",
+      "title_kor": "객체 검색 후보 영역을 개선하기 위한 방법, 컴퓨터-판독가능 저장 매체 및 장치",
+      "authors": ["Kuk-Jin Yoon", "Dae-Yong Cho"],
+      "authors_kor": ["윤국진", "조대용"],
+      "venue": "Domestic",
+      "year": 2017,
+      "type": "patent",
+      "status": "Active",
+      "patent_id": "KR1018744710000",
+      "keywords": ["Patent", "Object Proposal"]
+    },
+    {
+      "title": "A Method, an Apparatus and a Computer-readable Storage Medium of Leveraging Stereo Matching with Confidence Measures",
+      "title_kor": "신뢰척도에 따른 레버리지 스테레오 매칭 방법, 장치 및 컴퓨터-판독 가능 저장 매체",
+      "authors": ["Kuk-Jin Yoon", "Min-Gyu Park"],
+      "authors_kor": ["윤국진", "박민규"],
+      "venue": "Domestic",
+      "year": 2017,
+      "type": "patent",
+      "status": "Active",
+      "patent_id": "KR1017685330000",
+      "keywords": ["Patent", "Stereo Matching"]
+    },
+    {
+      "title": "Estimation Method and Apparatus for Information Corresponding Camera Orientation by Using Image",
+      "title_kor": "이미지를 이용하는 카메라의 방향과 관련한 정보 추정장치 및 추정방법",
+      "authors": ["Kuk-Jin Yoon", "Jeong Gyun Lee"],
+      "authors_kor": ["윤국진", "이정균"],
+      "venue": "Domestic",
+      "year": 2017,
+      "type": "patent",
+      "status": "Active",
+      "patent_id": "KR1018471130000",
+      "keywords": ["Patent", "Camera Orientation"]
+    },
+    {
+      "title": "Image based Hierarchical Multiple Object Tracking Method and System using a Relative Motion between Objects",
+      "title_kor": "객체 간의 상대 움직임 정보를 이용한 영상 기반 계층적 다중 객체 추적 방법 및 시스템",
+      "authors": ["Ju Hong Yoon", "Young Bae Hwang", "Byeong Ho Choi", "Kuk-Jin Yoon"],
+      "authors_kor": ["윤주홍", "황영배", "최병호", "윤국진"],
+      "venue": "Domestic",
+      "year": 2017,
+      "type": "patent",
+      "status": "Active",
+      "patent_id": "KR1017683720000",
+      "keywords": ["Patent", "Object Tracking"]
+    },
+    {
+      "title": "Method for 3D Object Detection and Pose Estimation",
+      "title_kor": "3차원 객체 검출 및 자세추정 방법",
+      "authors": ["Kuk-Jin Yoon", "Sua Kim"],
+      "authors_kor": ["윤국진", "김수아"],
+      "venue": "Domestic",
+      "year": 2017,
+      "type": "patent",
+      "status": "Active",
+      "patent_id": "KR1018197300000",
+      "keywords": ["Patent", "3D Object Detection"]
+    },
+    {
+      "title": "Confidence based Recursive Filtering Method for Depth Map Refinement",
+      "title_kor": "신뢰 기반 재귀적 깊이 영상 필터링 방법",
+      "authors": ["Kuk-Jin Yoon", "Min-Gyu Park"],
+      "authors_kor": ["윤국진", "박민규"],
+      "venue": "Domestic",
+      "year": 2017,
+      "type": "patent",
+      "status": "Active",
+      "patent_id": "KR1017633760000",
+      "keywords": ["Patent", "Depth Map Refinement"]
+    },
+    {
+      "title": "Object Recognition System and Method the Same",
+      "title_kor": "물체 인식 시스템 및 그 물체 인식 방법",
+      "authors": ["Jihyo Lee", "Kuk-Jin Yoon", "Woosup Han"],
+      "authors_kor": ["이지효", "윤국진", "한우섭"],
+      "venue": "Domestic",
+      "year": 2017,
+      "type": "patent",
+      "status": "Active",
+      "patent_id": "KR1017157820000",
+      "keywords": ["Patent", "Object Recognition"]
+    }    
   ]
 }

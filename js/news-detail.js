@@ -219,7 +219,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         <p class="news-publication-authors">${pub.authors.join(', ')}</p>
         <p class="news-publication-venue">
           <strong>${pub.venue} ${pub.year}</strong>
-          <span class="presentation-tag">${presentation}</span>
+          <span class="presentation-tag"><strong>${presentation}</strong></span>
         </p>
         ${
           pub.keywords
